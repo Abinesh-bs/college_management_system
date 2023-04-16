@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Font-->
+    <!--CSS-->
+    <link rel="stylesheet" href="2ndpagestyle.css">
+    <title>2nd Page</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <img src="tc.jpg">
+        <select name="menu" id="sidebaroption">
+            <option value="staff">Staff</option>
+            <option value="Subject">Subject</option>
+        </select>
+        <select name="academic" id="sidebaroption">
+            <option value="academic">Academic</option>
+            <option value="NOV">NOV</option>
+            <option value="DEC">DEC</option>
+        </select>
+    </div>
+    <div class="menubar">
+        <h2>Thiagarajar College</h2>
+        <span class="fa fa-bars" style="font-size:35px" id="menu"></span>
+        <div class="icon">
+            <input type="search"><span class="fa fa-search" style="font-size:15px">search</span>
+            <span class="fa fa-user-circle" style="font-size: 20px;">Profile</span>
+        </div>
+    </div>
+
+    <h3 style="padding: 5.5%;text-align: center; font-size: 40px; font-family:monospace; color:lightgray;">Course Outlay
+    </h3>
+    <div class="content">
+        <label>Program*</label>
+        <select name="program" id="contentselect">
+            <option value="eng">B.A English S.F</option>
+            <option value="eng">B.A Tamil S.F</option>
+        </select><br></br>
+        <label>Course code</label>
+        <select name="coursecode" id="contentselect">
+            <option value="" hidden>--select--</option>
+            <option value="UCG20SU">UCG20SU</option>
+            <option value="UCG20CU">UCG20CU</option>
+        </select><br></br>
+        <label>Category</label>
+        <select name="category" id="contentselect">
+            <option value="" hidden>--select--</option>
+            <option value="core">Core</option>
+        </select>
+    </div>
+    <div class="bottombar">
+        <button type="submit" id="bottombarmenu">Submit</button>
+        <button type="button" id="bottombarmenu">Syllabus</button>
+    </div>
+</body>
+
+</html>
